@@ -165,6 +165,63 @@ footer{
     border-radius: 5px;
     color: #424242;
 }
+.feature-section{
+    display: flex;
+    padding: 3rem 1rem;
+    gap: 2.28rem;
+
+}
+.feature-left-text h2{
+    color:#131313;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: .70rem;
+   
+}
+.feature-left-text p{
+    color: #727272; 
+    font-size: .80rem;
+    line-height: 1rem;  
+}
+.feature-card{
+    padding:.80rem; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-card h3{
+    color: #131313;
+   font-size: 1rem;
+   font-weight: 600;
+   margin-bottom: .50rem;
+
+}
+.border-left-f{
+ border-left: 2px solid #FF900E;
+ padding: .40rem;
+}
+.feature-card p{
+    color:  #727272;
+    font-size: .90rem;
+    font-weight: 400;
+    line-height: 1.25rem; 
+}
+.feature-right-img img{
+    width: 100%;
+}
+.img-bottom-button{
+    padding: 1rem 1.25rem;
+    background-color: #FF900E;
+    color: white;
+    width: 6rem;
+    text-align: center;
+    position: relative;
+    top: -2.50rem;
+    right: 1.25rem;
+}
+.img-bottom-button h2{}
+.img-bottom-button p{}
 
 
 
@@ -179,6 +236,7 @@ footer{
         padding: 20px;
         
     }
+    .feature-section,
     .sponsor-bottom-text,
     .facts-card,
     .team-section,
@@ -204,6 +262,13 @@ footer{
     .facts-card{
         padding: 0 1.50rem;
     
+    }
+    .img-bottom-button{
+        top:.70rem;
+        right:0;
+        margin: 0 auto;
+       
+       
     }
     
     
