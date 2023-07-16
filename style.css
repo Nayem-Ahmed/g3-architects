@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding: 0;
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.header-section{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+    
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    align-items: center;
+
+}
+.header-left-text{
+    color: #131313;
+}
+nav ul{
+    list-style: none; 
+    
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 1.5rem;
+    color: #424242;
+    font-size: 1rem;
+    
+}
+.header-bottom-text{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.header-bottom-text h2{
+    color: #131313;
+    font-size: 2rem;
+}
+.header-bottom-text p{
+    color:#727272;
+    text-align: center;
+    font-size: .80rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem; 
+    margin: 1rem 0;
+}
+.primary-button{
+    border-radius: 5px;
+    background: #FF900E;
+    border: none;
+    padding: .70rem 1rem;
+    color: white;
+    
+}
+.header-bottom-img img{
+    width: 100%;
+    margin-top: 1.50rem;
+}
+main{
+    max-width: 800px;
+    margin: 3.25rem auto;
+} 
+.team-section{
+    display: flex;
+    align-items: center;
+ 
+    
+}
+.teams-right-text{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.teams-right-text h2{
+    margin-bottom: 1rem;
+}
+.teams-right-text .quick{
+    color: #727272;
+}
+.teams-right-text .list{
+    color: #131313;
+}
+.teams-right-text .feature{
+    color: #FF900E;
+}
+.teams-right-text p{
+    color:#727272;
+    font-size:.80rem;
+    font-weight: 400;
+    line-height: .90rem;
+    margin-bottom: 1rem; 
+}
+.teams-left-img img{
+    width: 100%;
+}
+.teams-left-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE CSS */
+/* MOBILE */
+@media screen and (max-width:578px) {
+    .header-section{
+        padding: 20px;
+        
+    }
+    .team-section,
+    .header-top {
+        flex-direction: column;
+    }
+    .header-left-text{
+        margin-bottom: .90rem;
+    }
+    nav ul li a {
+        margin-right: 0.4rem;
+        font-size: .80rem;
+    }
+    .teams-left-img{
+        grid-template-columns:1fr;
+
+    }
+    .teams-right-text{
+        text-align: center;
+        margin-top: .70rem;
+    }
+    
+    
+}
+/* TABLET */
+@media screen and (min-width:578px) and (max-width:992px) {
+    .header-section{
+        padding: 40px;
+        
+    }
+    .header-top {
+        flex-direction: column;
+    }
+    .header-left-text{
+        margin-bottom: 1rem;
+    }
+    nav ul li a {
+        margin-right: 0.7rem;
+        font-size: 1.50rem;
+    }
+    .header-bottom-text p{
+        font-size: 1.50rem;
+        line-height: 2rem;
+
+     
+    }
+    
+}
